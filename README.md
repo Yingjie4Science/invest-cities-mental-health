@@ -1,16 +1,12 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=Yingjie4Science.invest-mental-health)
 
-# InVEST mental health model
+# InVEST mental health model application to US cities 
 
 <p align="center">
   <img src="./man/images/nature_health.png"/>
 </p>
 
-
-## General information 
-* [Mental health model design doc](https://docs.google.com/document/d/1B68zhzlO5tY0L8uDSnFGt1CxBpBEjGu6J2_7XAxfV9k/edit?usp=sharing)
-* [Data and log doc (internal use only)](https://docs.google.com/document/d/1h3M5kNG7UyWXREg6LEhTfY2tvIyI1dRjxHbpa8VTEEM/edit?usp=sharing)
 
 ## Directory structure
 ```
@@ -34,13 +30,6 @@ invest-mental-health/
 
 Urban nature exposure can be measured in different ways. Here, we present the three most commonly used nature exposure measurements that relate to mental health outcomes. 
 
-Detailed description can be found in this [Google Slide, (internal use only)](https://docs.google.com/presentation/d/189DM6Cf0j2CCCwn8CQ9EbI6i2mIGPo2Xb-0KmNzHA6s/edit?usp=sharing)
-
-* ***nature availability*** ...... the amount of nature (e.g., % of greenspace, average greenness/NDVI) near residential areas or workplaces
-
-* ***nature accessibility*** ...... see [InVEST Urban Nature Access model](https://storage.googleapis.com/releases.naturalcapitalproject.org/invest-userguide/latest/en/urban_nature_access.html)
-
-* ***nature visibility*** ...... the visible green considering topography and buildings
 
 
 <p align="center">
@@ -51,14 +40,6 @@ Detailed description can be found in this [Google Slide, (internal use only)](ht
 *<div align="right"> Modified from [Labib et al 2021](https://doi.org/10.1016/j.scitotenv.2021.147919) </div>*
 
 
-## Mental Health
-
-<TBD ...>
-
-
-## Nature-Health Model Integration 
-
-<TBD ...>
 
 
 ## Key References
