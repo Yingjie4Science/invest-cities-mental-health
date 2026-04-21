@@ -3,43 +3,24 @@
 
 # InVEST mental health model application to US cities 
 
-<p align="center">
-  <img src="./man/images/nature_health.png"/>
-</p>
-
-
 ## Directory structure
 ```
 invest-mental-health/
   ├── code/
-      ├── nature-availability/ 
-      ├── nature-accessibility/
-      ├── nature-visibility/
+      ├── nature-exposure/ 
+      ├── greening-targets/
+      ├── 
   ├── data/ 
       ├── raw
       ├── intermediate
       ├── output
-      ├── para_nature_health            # parameters for modeling nature-health relation
-      ├── example                       # example data for modeling
+      ├── 
   ├── docs/
   ├── figures/
 
 ```
 
 ## Nature Exposure
-
-Urban nature exposure can be measured in different ways. Here, we present the three most commonly used nature exposure measurements that relate to mental health outcomes. 
-
-
-
-<p align="center">
-  <img src="./man/images/nature_exposure_type_illustration.png"/>
-</p>
-
-
-*<div align="right"> Modified from [Labib et al 2021](https://doi.org/10.1016/j.scitotenv.2021.147919) </div>*
-
-
 
 
 ## Key References
