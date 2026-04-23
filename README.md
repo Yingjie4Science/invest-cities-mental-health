@@ -22,6 +22,30 @@ invest-mental-health/
 
 ## Nature Exposure
 
+## Urban Greening Targets (CLI Pipeline)
+
+The full scraping + extraction pipeline is available at:
+
+`pipelines/urban_greening_targets/`
+
+This module contains all stages (A-G) and exports city targets to CSV/JSON/Markdown.
+
+Quick start:
+
+```bash
+cd pipelines/urban_greening_targets
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env
+PYTHONPATH=src python -m urban_greening_targets.cli run --all
+PYTHONPATH=src python -m urban_greening_targets.cli export
+```
+
+Outputs are written to:
+
+`pipelines/urban_greening_targets/data/output/`
+
 
 ## Key References
 - Li, Y., Mao, Y., Mandle, L., Rydström, A., Remme, R.P., Lan, X., Wu, T., Song, C., Lu, Y., Nadeau, K.C., Meyer-Lindenberg, A., Daily, G.C., Guerry, A.D., 2025. [Acute mental health benefits of urban nature](https://doi.org/10.1038/s44284-025-00286-y). ***Nature Cities*** 2, 720–731. https://doi.org/10.1038/s44284-025-00286-y
